@@ -13,7 +13,7 @@ Você é um engenheiro de segurança da informação recém-contratado em uma em
 > 📝PROPOSTA
 
 - *Analisar o Código Recebido*
-- *identificar como Vulnerabilidades do Código*
+- *identificar as Vulnerabilidades do Código*
 - *Propor Melhoriaas*
 - *Implementar um  Código*
 
