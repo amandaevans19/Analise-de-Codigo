@@ -74,4 +74,4 @@ Essas melhorias corrigirão as vulnerabilidades identificadas, e tornarão o có
 ___
 ## 🔗 Link
 
-[CÓDIGO]([docs/CONTRIBUTING.md](https://github.com/amandaevans19/Analise-de-Codigo/blob/main/.gitignore)https://github.com/amandaevans19/Analise-de-Codigo/blob/main/.gitignore)
+[CÓDIGO](https://github.com/amandaevans19/Analise-de-Codigo/blob/main/.gitignore)
