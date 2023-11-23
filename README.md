@@ -46,7 +46,7 @@ O programa não será compilado corretamente, ou será uma vulnerabilidade em si
 
 > **PROPOSTAS DE MELHORIAS**
 
-1. *Validação de entrada:*
+1. *Validação de Entrada:*
 Adicione uma função de validação para verificar se os valores fornecidos contêm apenas '0' e '1'. Se a validação falhar, exiba uma mensagem de erro e execute a execução ou solicite uma nova entrada.
 Isso reduzirá o risco de injeção de código, garantindo que apenas valores binários válidos sejam processados.
 
