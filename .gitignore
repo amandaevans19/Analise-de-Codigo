@@ -1,24 +1,46 @@
 # Compiled class file
-*.class
+import java.util.Scanner;
 
-# Log file
-*.log
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-# BlueJ files
-*.ctxt
+        System.out.print("Dígito do primeiro valor binário: ");
+        String valor1 = scanner.nextLine();
+        System.out.print("Digite a operação (+, -, *, /): ");
+        String operacao = scanner.nextLine();
+        System.out.print("Dígito do segundo valor binário: ");
+        String valor2 = scanner.nextLine();
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+        if (!isBinary(valor1) || !isBinary(valor2)) {
+            System.out.println("Entrada inválida. Certifique-se de que os valores sejam binários.");
+            return;
+        }
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+        int resultado = 0;
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+        if (operacao.equals("+")) {
+            resultado = Integer.parseInt(valor1, 2) + Integer.parseInt(valor2, 2);
+        } else if (operacao.equals("-")) {
+            resultado = Integer.parseInt(valor1, 2) - Integer.parseInt(valor2, 2);
+        } else if (operacao.equals("*")) {
+            resultado = Integer.parseInt(valor1, 2) * Integer.parseInt(valor2, 2);
+        } else if (operacao.equals("/")) {
+            if (!valor2.equals("0")) {
+                resultado = Integer.parseInt(valor1, 2) / Integer.parseInt(valor2, 2);
+            } else {
+                System.out.println("Divisão por zero não é permitida.");
+                return;
+            }
+        } else {
+            System.out.println("Operação inválida.");
+            return;
+        }
+
+        System.out.println("Resultado binário: " + Integer.toBinaryString(resultado));
+    }
+
+    private static boolean isBinary(String value) {
+        return value.matches("[01]+");
+    }
+}
