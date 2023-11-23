@@ -10,7 +10,7 @@ Você é um engenheiro de segurança da informação recém-contratado em uma em
 
 
 
-> 📝PROPOSTA
+> PROPOSTA
 
 - *Analisar o Código Recebido*
 - *identificar as Vulnerabilidades do Código*
@@ -20,7 +20,7 @@ Você é um engenheiro de segurança da informação recém-contratado em uma em
 
 ___
 
-## 💻 PROJETO
+## PROJETO
 
 
 
