@@ -71,7 +71,5 @@ ___
 Essas melhorias corrigirão as vulnerabilidades identificadas, e tornarão o código mais robusto e resistente a falhas, promovendo boas práticas de segurança e desenvolvimento de software.
 
 
-___
-## Link
 
-[CÓDIGO](https://github.com/amandaevans19/Analise-de-Codigo/blob/main/.gitignore)
+[CÓDIGO IMPLEMENTADO](https://github.com/amandaevans19/Analise-de-Codigo/blob/main/.gitignore)
