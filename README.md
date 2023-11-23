@@ -72,6 +72,6 @@ Essas melhorias corrigirão as vulnerabilidades identificadas, e tornarão o có
 
 
 ___
-## 🔗 Link
+## Link
 
 [CÓDIGO](https://github.com/amandaevans19/Analise-de-Codigo/blob/main/.gitignore)
