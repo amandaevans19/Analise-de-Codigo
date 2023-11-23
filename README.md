@@ -3,7 +3,7 @@
 
 
 
-> *INTRO*
+> *INTRODUÇÃO*
 
 Você é um engenheiro de segurança da informação recém-contratado em uma empresa de desenvolvimento de software. A empresa está preocupada com a segurança de suas aplicações e sistemas, especialmente em relação às vulnerabilidades que envolvem operações aritméticas binárias. Sua tarefa é realizar uma análise abrangente de segurança em uma fonte de código fornecida e propor melhorias para proteção contra ataques de injeção de código e estouro de buffer relacionados a operações binárias.
 
