@@ -13,9 +13,9 @@ Você é um engenheiro de segurança da informação recém-contratado em uma em
 > PROPOSTA
 
 - *Analisar o Código Recebido*
-- *identificar as Vulnerabilidades do Código*
-- *Propor Melhoriaas*
-- *Implementar um  Código*
+- *Identificar as Vulnerabilidades do Código*
+- *Propor Melhorias*
+- *Implementar um Código*
 
 
 ___
@@ -28,6 +28,7 @@ ___
 
 Este relatório aborda uma análise de segurança em um trecho de código Java responsável pela realização de operações binárias. A análise concentra-se na identificação de ameaças potenciais, como injeção de código e erros relacionados com a segurança das aplicações e sistemas, especialmente em relação às vulnerabilidades associadas às operações aritméticas binárias. 
 O código original foi submetido a uma avaliação, levando em consideração a qualidade do código, a identificação de vulnerabilidades e propostas de melhorias. A entrega final inclui um novo código com as melhorias descobertas, garantindo que as operações binárias sejam realizadas de maneira segura e eficaz.
+
 
 > **IDENTIFICAÇÃO DAS  VULNERABILIDADS**
 
@@ -45,6 +46,7 @@ O programa não será compilado corretamente, ou será uma vulnerabilidade em si
 
 
 > **PROPOSTAS DE MELHORIAS**
+
 
 1. *Validação de Entrada:*
 Adicione uma função de validação para verificar se os valores fornecidos contêm apenas '0' e '1'. Se a validação falhar, exiba uma mensagem de erro e execute a execução ou solicite uma nova entrada.
