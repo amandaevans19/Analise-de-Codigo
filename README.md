@@ -30,7 +30,7 @@ Este relatório aborda uma análise de segurança em um trecho de código Java r
 O código original foi submetido a uma avaliação, levando em consideração a qualidade do código, a identificação de vulnerabilidades e propostas de melhorias. A entrega final inclui um novo código com as melhorias descobertas, garantindo que as operações binárias sejam realizadas de maneira segura e eficaz.
 
 
-> **IDENTIFICAÇÃO DAS  VULNERABILIDADS**
+> **IDENTIFICAÇÃO DAS  VULNERABILIDADES**
 
 1. *Validação de Entrada:*
 • Vulnerabilidade: O código não valida se os valores inseridos (valor1 e valor2) representam números binários válidos (compostos apenas por '0' e '1'). Isso deixa a aplicação vulnerável a ataques de injeção de código, onde um usuário mal-intencionado pode fornecer valores que não são binários, explorando a lógica do programa.
